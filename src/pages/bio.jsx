@@ -13,12 +13,12 @@ export default function Bio() {
       <StyledBio>
         <h2>Quem sou</h2>
         <Container>
-          <h3>Minha trajetória</h3>
+          <h3>Um laço eterno com a música</h3>
             <p>Seja bem-vindo ao universo sonoro de <b>Clodoaldo Mendonça</b>, um talentoso artista que há anos ilumina as noites com sua paixão pela música. Com uma carreira enraizada nas melodias e harmonias que permeiam os diferentes estilos, Mendonça conquistou seu espaço como um dos músicos mais experientes da cena noturna.</p>
-            <p>Com uma <b>habilidade única para se conectar com a audiência</b>, este incrível multiinstrumentista transforma cada apresentação em uma jornada musical envolvente. Sua trajetória no cenário noturno é marcada por uma rica diversidade de eventos, desde apresentações intimistas em bares acolhedores até performances arrebatadoras em renomados espaços culturais.
+            <p>Com uma <b>habilidade única para se conectar com a audiência</b>, este incrível multiinstrumentista transforma cada apresentação em uma jornada musical envolvente. Sua trajetória no cenário noturno é marcada por uma rica diversidade de eventos, desde apresentações intimistas em bares acolhedores até performances arrebatadoras em renomados espaços culturais.</p>
+
+            <p>O repertório desta fera musical vai além das interpretações magistrais de clássicos consagrados; ele também se destaca como <b>compositor</b>, apresentando suas próprias criações originais. Suas músicas autorais refletem a profundidade de suas experiências e a riqueza de suas influências musicais, criando um diálogo único entre o artista e seu público.</p>
         
-            O repertório de Clodoaldo Mendonça vai além das interpretações magistrais de clássicos consagrados; ele também se destaca como compositor, apresentando suas próprias criações originais. Suas músicas autorais refletem a profundidade de suas experiências e a riqueza de suas influências musicais, criando um diálogo único entre o artista e seu público.</p>
-            
               <div className="fotoMusico">
                 <img src="/imagens/musico.png" alt="Músico sorrindo com um violão no colo" />
               </div>
@@ -28,6 +28,7 @@ export default function Bio() {
             <p>Para aqueles que buscam uma  <b>experiência musical autêntica e memorável</b>, Clodoaldo Mendonça é a escolha certa. Sua paixão duradoura pela música e sua dedicação incansável em proporcionar momentos inesquecíveis fazem dele um verdadeiro ícone na noite musical.</p>
 
             <p>Prepare-se para se perder na magia das notas e se deixar levar pelas histórias musicais do talentoso <b>Clodoaldo Mendonça</b>, onde cada acorde é um capítulo e cada melodia é uma página virada na vasta biografia de sua carreira musical.</p>
+            <p>E como ele mesmo diz: <b>"Corda tem que vibrar!"</b>.</p>
           </Container>
           </StyledBio>
     </>
