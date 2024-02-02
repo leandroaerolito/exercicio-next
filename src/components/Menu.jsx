@@ -44,4 +44,8 @@ const StyledMenu = styled.nav`
       padding-right: 2rem;
     }
   }
+
+  a.ativo {
+    background-color: red;
+  }
 `;
