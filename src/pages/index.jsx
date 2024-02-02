@@ -13,6 +13,7 @@ export default function Home() {
           content="StaffMusic, Banda, Cantor, Música, Eventos"
         />
       </Head>
+
       <section>
         <h2>Está acontecendo</h2>
       </section>

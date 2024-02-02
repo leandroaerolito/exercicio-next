@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio&display=swap");
 
+:root {
+  --cor-primaria-fundo: #7c04df;
+  --cor-primaria-fundo-hover: #030226;
+  --cor-primaria: #f2f2f2;
+  --cor-primaria-hover: #ebebeb;
+  --cor-secundaria-fundo: #4ba3c3;
+  --cor-secundaria-fundo-hover: #2f88a8;
+  --cor-secundaria: #e4e3f2;
+  --cor-secundaria-hover: #e2e2eb;
+  --sombra-box: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --borda-arredondada: 0.5rem;
+}
+
 *,
 *::after,
 *::before {
@@ -41,17 +54,4 @@ h2 {
   width: 90%;
   max-width: 1000px;
   margin: auto;
-}
-
-:root {
-  --cor-primaria-fundo: #0b0a3f;
-  --cor-primaria-fundo-hover: #030226;
-  --cor-primaria: #f2f2f2;
-  --cor-primaria-hover: #ebebeb;
-  --cor-secundaria-fundo: #4ba3c3;
-  --cor-secundaria-fundo-hover: #2f88a8;
-  --cor-secundaria: #e4e3f2;
-  --cor-secundaria-hover: #e2e2eb;
-  --sombra-box: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-  --borda-arredondada: 0.5rem;
 }
