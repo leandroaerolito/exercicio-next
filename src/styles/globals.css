@@ -34,12 +34,9 @@ body {
 }
 
 h1,
-h2 {
-  font-family: "Antonio", sans-serif;
-}
-
+h2,
 h3 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Antonio", sans-serif;
 }
 
 h2 {
@@ -55,3 +52,11 @@ h2 {
   max-width: 1000px;
   margin: auto;
 }
+
+.fotoMusico {
+  max-width: min-content;
+  max-height: auto;
+  box-sizing: content-box;
+  align-items: center;
+}
+
