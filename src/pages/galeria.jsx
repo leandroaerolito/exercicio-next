@@ -83,6 +83,9 @@ article {
   padding: 1rem;
 }
 
+h3 {
+  color: #8103bb;
+}
 .formatos {
   max-width: 100%;
 }
