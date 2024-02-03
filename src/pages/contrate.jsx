@@ -15,7 +15,7 @@ export default function Contrate() {
       </Head>
 
       <StyledContrate>
-        <h2>Contrate</h2>
+        <h2>Contrate o músico para seu evento</h2>
         <Container>
           <form action="" method="post">
             <div>
@@ -48,7 +48,7 @@ export default function Contrate() {
 
 const StyledContrate = styled.section`
   h2::before {
-    content: "💌 ";
+    content: "📅 ";
   }
 
   form > div {

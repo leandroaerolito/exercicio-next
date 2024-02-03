@@ -54,10 +54,7 @@ h2 {
   margin: auto;
 }
 
-.fotoMusico {
-  max-width: min-content;
-  max-height: auto;
-  box-sizing: content-box;
-  align-items: center;
-}
 
+p {
+  text-align: start;
+}

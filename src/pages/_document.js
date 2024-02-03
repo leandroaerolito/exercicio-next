@@ -8,7 +8,7 @@ export default function Document() {
           rel="shortcut icon"
           href="imagens/favicon.png.png"
           type="imnage/png"
-          sizes="250x250"
+          sizes="256x256"
         />
         <meta name="author" content="Leandro Rocha" />
       </Head>
