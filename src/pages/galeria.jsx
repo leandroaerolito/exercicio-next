@@ -15,7 +15,7 @@ export default function Galeria() {
         <meta name="keywords" content="staffmusic, galeria" />
       </Head>
       <StyledGaleria>
-        <h2>Galeria</h2>
+        <h2>Por onde a música me levou</h2>
         <Container>
           <div className="formatos">
             <article>
@@ -76,7 +76,7 @@ export default function Galeria() {
 
 const StyledGaleria = styled.section`
   h2::before {
-    content: "📷 ";
+    content: "🎵 ";
 }
 
 article {
