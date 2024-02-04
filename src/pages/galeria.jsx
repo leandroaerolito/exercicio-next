@@ -81,6 +81,7 @@ const StyledGaleria = styled.section`
 
 article {
   padding: 1rem;
+  max-width: 100%;
 }
 
 h3 {
@@ -88,7 +89,9 @@ h3 {
 }
 .formatos {
   max-width: 100%;
+ 
 }
+
 
 @media screen and (min-width: 800px) {
   div {
@@ -97,7 +100,11 @@ h3 {
     justify-content: space-evenly;
     align-items: stretch
     flex-wrap: wrap;
-    max-width:100%;  
+    max-width:100%;
+    border-top-right-radius: var(--borda-arredondada);
+    border-bottom-right-radius: var(--borda-arredondada);
+    border-top-left-radius: var(--borda-arredondada);
+    border-bottom-left-radius: var(--borda-arredondada);  
   }
 }
 `;

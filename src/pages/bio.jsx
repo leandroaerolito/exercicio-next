@@ -44,12 +44,18 @@ const StyledBio = styled.section`
       content:"😎";
   }
 
+  h3 {
+    color: #8103bb;
+  }
+  
   .fotoMusico {
     max-width: min-content;
     max-height: auto;
     box-sizing: content-box;
     align-items: center;
     border-radius: 50%;
-  }  
+  }
+  
+    
 `;
 
