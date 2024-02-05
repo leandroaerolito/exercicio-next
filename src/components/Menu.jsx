@@ -2,18 +2,28 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styled from "styled-components";
 
-
 export default function Menu() {
-  const rotaAtual = usePathname ();
+  const rotaAtual = usePathname();
 
-  const linkAtivo = (rota) => (rotaAtual ===rota ? "ativo" : "");
+  const linkAtivo = (rota) => (rotaAtual === rota ? "ativo" : "");
 
   return (
     <StyledMenu>
-      <Link href="/" className={linkAtivo("/")}>Blog</Link>
-      <Link href="/bio" className={linkAtivo("/")} >Bio</Link>
-      <Link href="/galeria" className={linkAtivo("/")} >Galeria</Link>
-      <Link href="/contrate" className={linkAtivo("/")}>Contrate</Link>
+      <Link href="/" className={linkAtivo("/")}>
+        Blog
+      </Link>
+      <Link href="/bio" className={linkAtivo("/")}>
+        Bio
+      </Link>
+      <Link href="/galeria" className={linkAtivo("/")}>
+        Galeria
+      </Link>
+      <Link href="/photos" className={linkAtivo("/")}>
+        Photos
+      </Link>
+      <Link href="/contrate" className={linkAtivo("/")}>
+        Contrate
+      </Link>
     </StyledMenu>
   );
 }
@@ -50,11 +60,4 @@ const StyledMenu = styled.nav`
       padding-right: 2rem;
     }
   }
-
-  a.ativo {
-    background-color: black;
-    
-  }
 `;
-
-
