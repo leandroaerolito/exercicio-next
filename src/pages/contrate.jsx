@@ -33,57 +33,48 @@ export default function Contrate() {
             </div>
         
             <div>
-              <label htmlFor="data">Data do evento:</label>
-              <input type="date" name="data" min="2024-01-05" max={2024-12-31}  />
+              <label htmlFor="data">Data:</label>
+              <input type="date" name="data" min="2024-01-05" max="2024-12-31" />
             </div>
 
             <div>
-              <label htmlFor="local">Local do evento:</label>
+              <label htmlFor="local">Local:</label>
               <input type="text" name="local" id="local" />
             </div>
             <div>
-              <label htmlFor="horario">Horário do evento:</label>
+              <label htmlFor="horario">Horário:</label>
               <input type="text" name="horario" id="horario" />
             </div>
 
             <div>
               <label htmlFor="faixaEtaria">Classificação</label>
-              <input type="radio" name="classificação" value="adulto"/>adulto
-              <input type="radio" name="classificação" value="infantil"/>infantil
+              <select name="classificação" id="classificação1">
+                <option selected disabled value="">Qual faixa-etária?</option>
+                <option value="adulto">adulto</option>
+                <option value="infantil">infantil</option>
+              </select>
+            </div>
+
+            <div>
+              <label htmlFor="formatos">Formatos:</label>
+              <select name="formatos" id="formato1">voz
+                <option selected disabled value="">escolha o formato</option>
+                <option value="voz e violão">Voz e Violão</option>
+                <option value="+percussão"> + percussão</option>
+                <option value="trio">Banda Trio</option>
+                <option value="banda">Super Banda</option>
+              </select>
             </div>
 
             <div>
               <label htmlFor="duração">Duração:</label>
-                <select name="" id="" disabled="disabled">Selecione</select>
-
-                <select name="duração" id="">
-                  <option value="1h"></option>
-                  <option value="2h"></option>
-                  <option value="4h"></option>
-                  <option value="6h"></option>
-
-                </select>
-
-                
-            </div>
-
-            <div>
-              <label>Formatos de Banda</label>
-              <input type="checkbox" id="formato1" name="formato1" value="voz e violão"/>
-              <label htmlFor="formato1">Voz e Violão</label>
-              
-              <input type="checkbox" id="formato2" name="formato2" value="voz, violão e percussão"/>
-              <label for="formato2" >Voz,Violão e Percussão</label>
-              
-              <input type="checkbox" id="formato3" name="formato3" value="Banda Trio"/>
-              <label htmlFor="formato1">Banda Trio</label>
-             
-              <input type="checkbox" id="formato4" name="formato4" value="Super Banda"/>
-              <label htmlFor="formato1">Super Banda</label>
-
-
-
-
+              <select name="duração" id="duracao1">voz
+                <option selected disabled value="">selecione a duração</option>
+                <option value="voz e violão">1h</option>
+                <option value="+percussão">2h</option>
+                <option value="trio">4h</option>
+                <option value="banda">6h</option>
+              </select>
             </div>
 
             <div>
@@ -129,6 +120,7 @@ const StyledContrate = styled.section`
     }
 
     & input,
+      select, 
     & textarea {
       width: 70%;
       border: none;
